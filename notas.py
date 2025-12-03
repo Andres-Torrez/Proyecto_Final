@@ -38,25 +38,26 @@ def crear_nota(texto, etiqueta):
 # ===========================
 
 
-def agregar_nota(notas, texto, etiqueta):
-    """
-    Agrega una nuva nota a la lista.
+#CODIGO COMENTADO
+# def agregar_nota(notas, texto, etiqueta):
+#     """
+#     Agrega una nuva nota a la lista.
     
-    Args:
-        notas (list): Lista actual de notas.
-        texto (str): Texto de la nota.
-        etiqueta (str): Etiqueta de la nota
+#     Args:
+#         notas (list): Lista actual de notas.
+#         texto (str): Texto de la nota.
+#         etiqueta (str): Etiqueta de la nota
         
-    Returns:
-        bool:  True si la nota fue agregada , False en caso contrario"""
-    nota =  crear_nota(texto,etiqueta)
+#     Returns:
+#         bool:  True si la nota fue agregada , False en caso contrario"""
+#     nota =  crear_nota(texto,etiqueta)
 
-    if nota is None:
-        return False
+#     if nota is None:
+#         return False
     
-    notas.append(nota)
-    log_info("Nota agregada correctamente")
-    return True
+#     notas.append(nota)
+#     log_info("Nota agregada correctamente")
+#     return True
 
 def editar_nota(notas, indice, nuevo_texto, nueva_etiqueta):
     """
@@ -82,7 +83,7 @@ def editar_nota(notas, indice, nuevo_texto, nueva_etiqueta):
     log_info(f"Nota editada en posicion {indice}: {nuevo_texto} [{nueva_etiqueta}]")
     print("Nota editada correctamente")
 
-    
+
     return True
 
 
