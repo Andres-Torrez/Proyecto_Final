@@ -1,0 +1,22 @@
+[
+    {
+        "texto": "Saludar",
+        "etiqueta": "saludar",
+        "fecha": "2025-11-30 08:25"
+    },
+    {
+        "texto": "Comer",
+        "etiqueta": "comer",
+        "fecha": "2025-11-30 08:26"
+    },
+    {
+        "texto": "Acuerdate de cocinar",
+        "etiqueta": "cocinar",
+        "fecha": "2025-11-30 21:06"
+    },
+    {
+        "texto": "Comprar mercancia",
+        "etiqueta": "comprar",
+        "fecha": "2025-11-30 21:56"
+    }
+]
