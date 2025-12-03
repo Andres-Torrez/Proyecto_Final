@@ -75,20 +75,20 @@ def crear_backup(ruta):
         log_warning(f"No se pudo cerar backup de '{ruta}' : {e}")
         return False
     
-# def autoguardar(notas, ruta="notas.json"):
-#     """
-#     Guarda las notas y crea un backup automaticamente.
+def autoguardar(notas, ruta="notas.json"):
+    """
+    Guarda las notas y crea un backup automaticamente.
     
-#     Args:
-#         notas (list) : Lista de notas.
-#         ruta (str): Ruta del archivo principal.
+    Args:
+        notas (list) : Lista de notas.
+        ruta (str): Ruta del archivo principal.
     
-#     Returns:
-#         None
-#     """
+    Returns:
+        None
+    """
 
-#     if guardar_notas(notas, ruta):
-#         crear_backup(ruta)
-#         log_info("Auto-guardado completado.")
-#     else:
-#         log_error("El auto-guardado fallo.")
+    if guardar_notas(notas, ruta):
+        crear_backup(ruta)
+        log_info("Auto-guardado completado.")
+    else:
+        log_error("El auto-guardado fallo.")
