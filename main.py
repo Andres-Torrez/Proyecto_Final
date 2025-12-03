@@ -99,7 +99,6 @@ def main():
                 print("Opcion invalida. Intenta nuevamente.")
                 log_warning(f"Opcion invalida seleccionada: '{opcion}'")
 
-            #Nota para destrozar
 
 if __name__ == "__main__":
     main()
