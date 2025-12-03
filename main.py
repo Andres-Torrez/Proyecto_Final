@@ -25,6 +25,7 @@ def pedir_entero(mensaje):
 def mostrar_menu():
     print(    
          "=== GESTOR DE NOTAS — SISTEMA PROFESIONAL ===\n"
+
          "1. Agregar nota\n"
          "2. Mostrar notas\n"
          "3. Guardar nota\n"
@@ -97,6 +98,8 @@ def main():
             else:
                 print("Opcion invalida. Intenta nuevamente.")
                 log_warning(f"Opcion invalida seleccionada: '{opcion}'")
+
+            #Nota para destrozar
 
 if __name__ == "__main__":
     main()
