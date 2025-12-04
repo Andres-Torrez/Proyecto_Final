@@ -49,6 +49,9 @@ def agregar_nota(notas, texto, etiqueta):
         
     Returns:
         bool:  True si la nota fue agregada , False en caso contrario"""
+    
+    print("→ Ejecutando agregar_nota() en rama refactor-notas")
+
     nota =  crear_nota(texto,etiqueta)
 
     if nota is None:
