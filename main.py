@@ -24,9 +24,9 @@ def pedir_entero(mensaje):
 
 def mostrar_menu():
     print("""
-=====================================
+======================================
      GESTOR PROFESIONAL DE NOTAS
-=====================================
+======================================
 1. Agregar nota
 2. Mostrar notas
 3. Guardar notas
@@ -36,7 +36,7 @@ def mostrar_menu():
 7. Filtrar por fecha
 8. Editar nota
 0. Salir
--------------------------------------      
+--------------------------------------     
 """)
 
 def main():
