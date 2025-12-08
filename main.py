@@ -23,19 +23,21 @@ def pedir_entero(mensaje):
         log_warning(f"Entrada invalida para entero: '{valor}'")
 
 def mostrar_menu():
-    print(    
-         "=== GESTOR DE NOTAS — SISTEMA PROFESIONAL ===\n"
-
-         "1. Agregar nota\n"
-         "2. Mostrar notas\n"
-         "3. Guardar nota\n"
-         "4. Cargar nota\n"
-         "5. Buscar nota\n"
-         "6. Filtrar por etiqueta\n"
-         "7. Filtrar por fecha\n"
-         "8. Editar nota\n"
-         "0. Salir\n"
-    )
+    print("""
+=====================================
+     GESTOR PROFESIONAL DE NOTAS
+=====================================
+1. Agregar nota
+2. Mostrar notas
+3. Guardar notas
+4. Cargar notas
+5. Buscar nota
+6. Filtrar por etiqueta
+7. Filtrar por fecha
+8. Editar nota
+0. Salir
+-------------------------------------      
+""")
 
 def main():
     """
